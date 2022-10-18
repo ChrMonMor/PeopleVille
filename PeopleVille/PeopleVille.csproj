@@ -43,11 +43,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Genstande\Genstande.cs" />
+    <Compile Include="GenstandHR.cs" />
+    <Compile Include="IndbyggerHR.cs" />
+    <Compile Include="Interfaces\IArbejdeplads.cs" />
+    <Compile Include="Interfaces\IDrikkelse.cs" />
+    <Compile Include="Interfaces\IHjem.cs" />
+    <Compile Include="Interfaces\IButik.cs" />
+    <Compile Include="Indbygger\Indbygger.cs" />
+    <Compile Include="Interfaces\IVåben.cs" />
+    <Compile Include="Interfaces\IVærktøj.cs" />
+    <Compile Include="Genstande\Hammer.cs" />
+    <Compile Include="Genstande\Hest.cs" />
+    <Compile Include="Genstande\Hund.cs" />
+    <Compile Include="Genstande\Kat.cs" />
+    <Compile Include="Genstande\Knive.cs" />
+    <Compile Include="Genstande\Mad.cs" />
+    <Compile Include="Genstande\MadTyper\Grønsag.cs" />
+    <Compile Include="Genstande\MadTyper\Kød.cs" />
+    <Compile Include="Genstande\MadTyper\Mælk.cs" />
+    <Compile Include="Genstande\MadTyper\Æg.cs" />
+    <Compile Include="Genstande\Sav.cs" />
+    <Compile Include="Genstande\Pistol.cs" />
+    <Compile Include="LokalisationHR.cs" />
+    <Compile Include="Lokalisation\Bank.cs" />
+    <Compile Include="Lokalisation\Bar.cs" />
+    <Compile Include="Lokalisation\Byggeplads.cs" />
+    <Compile Include="Lokalisation\Dagligbruds.cs" />
+    <Compile Include="Lokalisation\DyrButik.cs" />
+    <Compile Include="Lokalisation\Grønttorv.cs" />
+    <Compile Include="Lokalisation\Hus.cs" />
+    <Compile Include="Lokalisation\HvidevareButik.cs" />
+    <Compile Include="Lokalisation\Lejlighed.cs" />
+    <Compile Include="Lokalisation\Lokalisation.cs" />
+    <Compile Include="Genstande\Rygsæk.cs" />
+    <Compile Include="Genstande\Vand.cs" />
+    <Compile Include="Genstande\Vin.cs" />
+    <Compile Include="Genstande\Økse.cs" />
+    <Compile Include="Genstande\Øl.cs" />
+    <Compile Include="Lokalisation\Smed.cs" />
+    <Compile Include="Lokalisation\Vej.cs" />
+    <Compile Include="PeopleVille.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RNG.cs" />
+    <Compile Include="Udbytte.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClassDiagram\" />
+    <Folder Include="extra\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
